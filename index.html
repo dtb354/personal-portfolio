@@ -5,32 +5,40 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="src/input.css" rel="stylesheet">
+  <link href="src/output.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 <header>
   <nav></nav>
 </header>
-<section id="about-section">
-  <div id="left-section">
-    <h1>Hallo Wereld!</h1>
-    <!-- Image of face here -->
+<section id="about-section" class="flex flex-col md:flex-row min-h-screen p-8 bg-gray-100">
+  <div id="left-section" class="w-full md:w-1/4 p-4 flex flex-col items-center">
+    <h1 class="text-3xl font-bold mb-4">Hallo Wereld!</h1>
+    <img src="img/face.jpg" alt="Daniel" class="rounded-full w-50 h-50 mb-4">
   </div>
-  <div id="right-section">
-    <div class="bio">
-      <p>
+
+  <div id="right-section" class="w-full md:w-3/4 p-4">
+    <div class="bio mb-6">
+      <p class="text-lg leading-relaxed mb-4">
         Hello world! I'm Daniel, an aspiring software developer/engineer. I am currently studying Creative Media and Game Technologies at the
         Rotterdam University of Applied Sciences. However, I am in the process of changing majors to study Computer Science. I have experience
         in web development and UX design. With my background in programming as well as architectural engineering, I am equipped and ambitious
         to pursue any project.
       </p>
+      <p class="text-lg leading-relaxed">
+        Outside my career and studies, I enjoy going to the gym, playing games, and making videos on YouTube!
+      </p>
     </div>
 
-    <div class="social-links">
-      <a href="" target=""></a>
-      <a href="" target=""></a>
-      <a href="" target=""></a>
-      <a href="" target=""></a>
+    <div class="social-links flex space-x-4">
+      <a href="#" class="fa fa-instagram text-2xl text-gray-700 hover:text-purple-500"></a>
+      <a href="#" class="fa fa-youtube text-2xl text-gray-700 hover:text-red-500"></a>
+      <a href="#" class="fa fa-twitch text-2xl text-gray-700 hover:text-black"></a>
+      <a href="#" class="fa fa-linkedin text-2xl text-gray-700 hover:text-blue-500"></a>
+      <a href="#" class="fa fa-github text-2xl text-gray-700 hover:text-black"></a>
     </div>
   </div>
 </section>
