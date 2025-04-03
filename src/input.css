@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    font-family: Fjalla One, sans-serif;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -44,7 +57,21 @@ a {
     margin-left: auto;   /* Center the section */
     margin-right: auto;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#left-section {
+    padding: 20px;
+    overflow: hidden;
+}
+
+#left-section img {
+    transition: transform 0.3s ease-in-out;
+    width: 100%; /* Make image responsive */
+}
+
+#left-section img:hover {
+    transform: scale(1.05);
 }
 
 #right-section {
@@ -56,6 +83,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+#social-media a {
+    transition: transform 0.3s ease-in-out;
+    margin: 0 10px;
+}
+
+#social-media a:hover {
+    transform: scale(1.05);
 }
 
 
