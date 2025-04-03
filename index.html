@@ -11,13 +11,24 @@
     <title>Document</title>
 </head>
 <body>
+<script src="https://cdn.tailwindcss.com"></script>
 <header>
-  <nav></nav>
+    <nav class="p-4 flex">
+      <div>
+        <img src="img/lofi_generator.png" alt="Logo" class="w-24 h-24 ml-10">
+      </div>
+      <div>
+        <a href="#about-section" class="text-white hover:text-gray-300">About Me</a>
+        <a href="#projects-section" class="text-white hover:text-gray-300">Projects</a>
+        <a href="#contact-section" class="text-white hover:text-gray-300">Contact</a>
+      </div>
+    </nav>
 </header>
-<section id="about-section" class="flex flex-col md:flex-row min-h-screen p-8 bg-gray-100">
+
+<section id="about-section" class="flex flex-col md:flex-row p-8 bg-gray-100">
   <div id="left-section" class="w-full md:w-1/4 p-4 flex flex-col items-center">
     <h1 class="text-3xl font-bold mb-4">Hallo Wereld!</h1>
-    <img src="img/face.jpg" alt="Daniel" class="rounded-full w-50 h-50 mb-4">
+    <img src="img/face3.jpeg" alt="Picture of Daniel Tran" class="rounded-full w-50 h-50 mb-4">
   </div>
 
   <div id="right-section" class="w-full md:w-3/4 p-4">
@@ -29,17 +40,17 @@
         in web development and UX design. With my background in programming as well as architectural engineering, I am equipped and ambitious
         to pursue any project.
       </p>
-      <p class="text-lg leading-relaxed">
+      <p class="text-lg leading-relaxed mt-10">
         Outside my career and studies, I enjoy going to the gym, playing games, and making videos on YouTube!
       </p>
     </div>
 
     <div id="social-media">
-      <a href="#" class="fa fa-instagram text-2xl text-gray-700 hover:text-pink-300"></a>
-      <a href="#" class="fa fa-youtube text-2xl text-gray-700 hover:text-red-500"></a>
-      <a href="#" class="fa fa-twitch text-2xl text-gray-700 hover:text-purple-500"></a>
-      <a href="#" class="fa fa-linkedin text-2xl text-gray-700 hover:text-blue-500"></a>
-      <a href="#" class="fa fa-github text-2xl text-gray-700 hover:text-black"></a>
+      <a href="https://www.instagram.com/dannythebozo/" class="fa fa-instagram text-4xl text-gray-700 hover:text-pink-300"></a>
+      <a href="https://www.youtube.com/@dannythebozo" class="fa fa-youtube text-4xl text-gray-700 hover:text-red-500"></a>
+      <a href="https://www.twitch.tv/dannythebozo" class="fa fa-twitch text-4xl text-gray-700 hover:text-purple-500"></a>
+      <a href="https://www.linkedin.com/in/daniel-tran-42661a1b5/" class="fa fa-linkedin text-4xl text-gray-700 hover:text-blue-500"></a>
+      <a href="https://github.com/dtb354" class="fa fa-github text-4xl text-gray-700 hover:text-black"></a>
     </div>
   </div>
 </section>

@@ -9,8 +9,53 @@
     margin: 5px 2px;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #e2844a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #e2844a;
+     padding: 10px 20px;
+ }
+
+a {
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+#about-section {
+    background-color: #fff;
+    padding: 40px;         /* Increase padding */
+    margin: 40px;         /* Increase margin */
+    width: 90%;          /* Set width relative to viewport */
+    max-width: 1200px;   /* Set maximum width */
+    margin-left: auto;   /* Center the section */
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#right-section {
+    padding: 20px;
+    margin: 20px;
+}
+
 #social-media {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
