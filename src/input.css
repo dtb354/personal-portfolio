@@ -8,3 +8,9 @@
     text-decoration: none;
     margin: 5px 2px;
 }
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
