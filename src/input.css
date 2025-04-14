@@ -98,13 +98,27 @@ a {
 .project-card {
     background-color: #fff;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+#skill-icons i {
+    font-size: 3rem; /* larger icons */
+    padding: 1rem;
+    transition: transform 0.3s ease;
+    color: #ff9955;
+}
+
+#skill-icons i:hover {
+    transform: scale(1.1);
+
 }
 
 
