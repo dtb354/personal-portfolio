@@ -160,17 +160,3 @@ footer p {
     margin: 3px;
 }
 
-@media (min-width: 768px) {
-    #skill-icons i {
-        font-size: 3rem;
-        padding: 1rem;
-    }
-
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 50px;
-        margin: 5px 2px;
-    }
-}
-
