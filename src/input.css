@@ -134,4 +134,12 @@ a {
     transform: scale(1.1);
 }
 
+footer {
+    background-color: #e2844a;
+}
+
+footer p {
+    font-family: 'Press Start 2P', cursive;
+}
+
 
