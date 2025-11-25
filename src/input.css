@@ -143,6 +143,26 @@ a {
     transform: scale(1.1);
 }
 
+#framework-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#framework-icons i {
+    font-size: 3rem;
+
+    padding: 0.5rem;
+    transition: transform 0.3s ease;
+    color: #ff9955;
+}
+
+#framework-icons i:hover {
+    transform: scale(1.1);
+}
+
 footer {
     background-color: #e2844a;
 }
